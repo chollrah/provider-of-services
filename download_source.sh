@@ -2,10 +2,10 @@
 
 # download files from these years.
 STARTYEAR=1993
-ENDYEAR=2017
+ENDYEAR=2019
 
 # choose method wget or rsync (requires NBER username)
-METHOD="rsync"
+METHOD="wget"
 
 if [ "$METHOD" == "rsync" ]
 then
